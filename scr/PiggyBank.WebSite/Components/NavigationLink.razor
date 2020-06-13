@@ -1,0 +1,30 @@
+﻿<div class="@(Model.IsSelected ? "nav_link_active" : "")">
+    <a href="@Model.Href" class="non_link" @onclick="@(() => OnClicked.InvokeAsync(Model))">
+        <div class="nav_link @(Model.IsChild ? "padding_left_20" : "")">
+            <span class="@Model.ImgClass margin_right_10"></span>
+            <span>@Model.LinkText</span>
+        </div>
+    </a>
+    @if (Model.SubnavigationLinks != null && Model.IsSelected)
+    {
+        <div>
+            <ul class="padding_left_0">
+                @foreach (var item in Model.SubnavigationLinks)
+                {
+                    <li class="non_li">
+                        <NavigationLink Model="item" />
+                    </li>
+                }
+            </ul>
+        </div>
+    }
+</div>
+
+@code {
+
+    [Parameter]
+    public NavigationLinkModel Model { get; set; }
+
+    [Parameter]
+    public EventCallback<NavigationLinkModel> OnClicked { get; set; }
+}

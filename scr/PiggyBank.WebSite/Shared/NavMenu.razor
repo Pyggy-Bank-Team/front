@@ -1,0 +1,69 @@
+﻿<div>
+    <div class="sidepanel_header">
+        <a href="" class="non_link" title="Piggy Bank">
+            <div class="f_left margin_right_10">
+                <img src="/images/logo.png" class="img_logo" />
+            </div>
+            <div class="margin_top_5">
+                Piggy Bank
+            </div>
+        </a>
+    </div>
+    <div class="sidepnale_menu">
+        <ul class="padding_left_0">
+            @foreach (var link in _links)
+            {
+                <li class="non_li">
+                    <NavigationLink Model="link" OnClicked="OnChangedSelectedItem" />
+                </li>
+            }
+        </ul>
+    </div>
+</div>
+
+@code {
+
+    public readonly List<NavigationLinkModel> _links = new List<NavigationLinkModel>
+    {
+        new NavigationLinkModel
+        {
+            Href = "operations",
+            ImgClass = "oi oi-document",
+            LinkText = "Operations"
+        },
+        new NavigationLinkModel
+        {
+            Href = "accounts",
+            ImgClass = "oi oi-layers",
+            LinkText = "Accounts",
+            SubnavigationLinks = new List<NavigationLinkModel>
+            {
+                new NavigationLinkModel
+                {
+                    Href = "accounts",
+                    ImgClass = "oi oi-plus",
+                    LinkText = "Add new account",
+                    IsChild = true
+                }
+            }
+        },
+         new NavigationLinkModel
+        {
+            Href = "categories",
+            ImgClass = "oi oi-tags",
+            LinkText = "Categories"
+        },
+    };
+
+    public void OnChangedSelectedItem(NavigationLinkModel selectedLink)
+    {
+        if (selectedLink.IsSelected)
+        {
+            return;
+        }
+
+        _links.ForEach(l => l.IsSelected = false);
+
+        selectedLink.IsSelected = true;
+    }
+}

@@ -58,9 +58,7 @@
     public void OnChangedSelectedItem(NavigationLinkModel selectedLink)
     {
         if (selectedLink.IsSelected)
-        {
             return;
-        }
 
         _links.ForEach(l => l.IsSelected = false);
 

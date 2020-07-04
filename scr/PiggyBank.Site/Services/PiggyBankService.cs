@@ -1,11 +1,11 @@
-﻿using PiggyBank.WebSite.Models.Services;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
+using PiggyBank.Site.Models.Services;
 
-namespace PiggyBank.WebSite.Services
+namespace PiggyBank.Site.Services
 {
     public class PiggyBankService
     {
@@ -40,7 +40,7 @@ namespace PiggyBank.WebSite.Services
             var response = await httClient.PostAsync($"{IndentityServer}/connect/token", content);
 
             dynamic result = await response.Content.ReadAsStringAsync();
-            return result.access_token;
+            return string.Empty;
         }
     }
 }

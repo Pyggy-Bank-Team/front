@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PiggyBank.Common", "PiggyBank.Common\PiggyBank.Common.csproj", "{E9B36920-CC10-4D58-833C-20D9BBA56AB6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiggyBank.Site", "PiggyBank.Site\PiggyBank.Site.csproj", "{CF2FE341-DD32-4FDA-9943-BAFD14B81BF5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Funtik", "Funtik\Funtik.csproj", "{CF2FE341-DD32-4FDA-9943-BAFD14B81BF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,14 +13,6 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E9B36920-CC10-4D58-833C-20D9BBA56AB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E9B36920-CC10-4D58-833C-20D9BBA56AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E9B36920-CC10-4D58-833C-20D9BBA56AB6}.Debug|x64.ActiveCfg = Debug|x64
-		{E9B36920-CC10-4D58-833C-20D9BBA56AB6}.Debug|x64.Build.0 = Debug|x64
-		{E9B36920-CC10-4D58-833C-20D9BBA56AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E9B36920-CC10-4D58-833C-20D9BBA56AB6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E9B36920-CC10-4D58-833C-20D9BBA56AB6}.Release|x64.ActiveCfg = Release|x64
-		{E9B36920-CC10-4D58-833C-20D9BBA56AB6}.Release|x64.Build.0 = Release|x64
 		{CF2FE341-DD32-4FDA-9943-BAFD14B81BF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF2FE341-DD32-4FDA-9943-BAFD14B81BF5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CF2FE341-DD32-4FDA-9943-BAFD14B81BF5}.Release|x64.ActiveCfg = Release|Any CPU

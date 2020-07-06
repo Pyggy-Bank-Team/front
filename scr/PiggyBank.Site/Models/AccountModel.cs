@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Linq;
-using System.Net.Http;
 using System.Threading.Tasks;
 using PiggyBank.Common.Enums;
 using PiggyBank.Common.Models.Dto;
@@ -10,14 +9,11 @@ namespace PiggyBank.Site.Models
 {
     public class AccountModel : IAccountModel
     {
-        private readonly HttpClient _httpClient;
-
         //For example
         private AccountInfoDto[] _accounts;
 
-        public AccountModel(IHttpClientFactory httpFactory)
+        public AccountModel()
         {
-            _httpClient = httpFactory.CreateClient();
             _accounts = new[]
             {
                 new AccountInfoDto

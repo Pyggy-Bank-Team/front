@@ -3,6 +3,6 @@ Release
 AppPackages
 *.suo
 .vs
+.idea
 obj
-/src/piggy-bank-uwp/_pkginfo.txt
-/src/piggy-bank-uwp/BundleArtifacts/Upload
+bin

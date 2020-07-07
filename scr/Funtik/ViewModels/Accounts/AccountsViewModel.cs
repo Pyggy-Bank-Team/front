@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Funtik.Interfaces;
-using Funtik.Models.Requests;
+using Funtik.Models.Services.Requests;
 using Microsoft.AspNetCore.Components;
 
 namespace Funtik.ViewModels.Accounts

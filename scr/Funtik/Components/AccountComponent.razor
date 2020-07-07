@@ -1,5 +1,5 @@
 ﻿@using Funtik.Enums
-@using Funtik.Models.Requests
+@using Funtik.Models.Services.Requests
 <div class="card">
     <div class="pointer @(Account.IsArchived ? "foreground_gray" : "")" @onclick="@(() => OnCardClick.InvokeAsync(Account))">
         <div class="f_left padding_10">

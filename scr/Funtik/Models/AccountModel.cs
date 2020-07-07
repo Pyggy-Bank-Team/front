@@ -3,7 +3,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Funtik.Enums;
 using Funtik.Interfaces;
-using Funtik.Models.Requests;
+using Funtik.Models.Services.Requests;
 
 namespace Funtik.Models
 {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace Funtik.Models.Requests
+namespace Funtik.Models.Services.Requests
 {
     public class PlanOperationDto : BudgetOperationDto
     {

@@ -1,5 +1,5 @@
 ﻿using System.Threading.Tasks;
-using Funtik.Models.Requests;
+using Funtik.Models.Services.Requests;
 
 namespace Funtik.Interfaces
 {

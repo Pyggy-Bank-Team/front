@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using Funtik.Enums;
 
-namespace Funtik.Models.Requests
+namespace Funtik.Models.Services.Requests
 {
     public class CategoryDto
     {

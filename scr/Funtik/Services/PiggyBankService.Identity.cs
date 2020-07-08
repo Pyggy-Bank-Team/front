@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
@@ -39,8 +40,9 @@ namespace Funtik.Services
             using (_client)
             {
                 var content = new FormUrlEncodedContent(body);
+                content.Headers.Add("Access-Control-Allow-Origin", $"{IdentityServer}/connect/token");
                 var response = await _client.PostAsync($"{IdentityServer}/connect/token", content);
-
+                
                 return !response.IsSuccessStatusCode 
                     ? null 
                     : JsonConvert.DeserializeObject<TokenResponse>(await response.Content.ReadAsStringAsync());

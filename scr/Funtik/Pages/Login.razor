@@ -4,24 +4,26 @@
 @inject IIdentityService IdentityService
 
 <div>
-    <div>@_token</div>
+    <div>
+        <input @bind-value="@_token"/>
+    </div>
     <div>
         <label>Login</label>
-        <input value="@_user"/>
+        <input @bind-value="@_user" @bind-value:event="oninput"/>
     </div>
     <div>
         <label>Password</label>
-        <input value="@_password" type="password"/>
+        <input @bind-value="@_password" @bind-value:event="oninput"  type="password"/>
     </div>
     <button @onclick="OnSignIn">Sign in</button>
 </div>
 
 @code{
-    private string _user;
-    private string _password;
+    private string _user = "denis";
+    private string _password = "qwerty123";
     private string _token;
 
-    public async Task OnSignIn()
+    private async Task OnSignIn()
     {
         var userModel = new UserModel
         {

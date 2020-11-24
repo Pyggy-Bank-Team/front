@@ -1,0 +1,46 @@
+.body{
+    background-color: white;
+}
+
+.footer-logo{
+    position: relative;
+    opacity: 0.6;
+    top: 40px;
+}
+
+.footer-app-name{
+    position: relative;
+    color: #A0A3BD;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.55px;
+    font-family: 'Poppins';
+    top: 43px;
+}
+
+.footer-mail{
+    position: relative;
+    color: #A0A3BD;
+    opacity: 0.8;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    font-family: 'Poppins';
+    top: 80px;
+}
+
+.footer-social{
+    position: relative;
+    top:90px;
+}
+
+footer{
+    background-color: #EEEFF9;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 255px;
+    width: 100%;
+    text-align: center;
+}

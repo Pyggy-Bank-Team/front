@@ -2,6 +2,43 @@
     background-color: white;
 }
 
+.header-title{
+    position: absolute;
+    top:10px;
+    margin-left: 10px;
+}
+
+.header-title-app-name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 100%;
+    letter-spacing: 0.55px;
+    color: #CF5EA4;
+}
+
+.header-title-description{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 9.8px;
+    line-height: 100%;
+    color: #4E4B66;
+}
+
+.body-main-text{
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+}
+
+.display-inline{
+    display: inline;
+}
+
 .footer-logo{
     position: relative;
     opacity: 0.6;

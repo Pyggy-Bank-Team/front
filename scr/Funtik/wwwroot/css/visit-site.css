@@ -8,6 +8,27 @@
     margin-left: 10px;
 }
 
+.header-button{
+    align-items: center;
+    padding: 10px 25px;
+    border: 1px solid #CF5EA4;
+    box-sizing: border-box;
+    border-radius: 5.02817px;
+    color: #CF5EA4;
+    background-color: transparent;
+}
+
+.header-button-content{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #CF5EA4;
+}
+
 .header-title-app-name{
     font-family: 'Poppins';
     font-style: normal;
@@ -30,9 +51,21 @@
     font-family: 'Sora';
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 46px;
     line-height: 140%;
     letter-spacing: -0.02em;
+}
+
+.body-add-text{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #6E7191;
 }
 
 .display-inline{
@@ -80,4 +113,40 @@ footer{
     height: 255px;
     width: 100%;
     text-align: center;
+}
+
+.f-right{
+    float: right;
+}
+
+.p-top-20{
+    padding-top: 20px;
+}
+
+.p-top-50{
+    padding-top: 50px;
+}
+
+.p-top-60{
+    padding-top: 60px;
+}
+
+.p-top-70{
+    padding-top: 70px;
+}
+
+.m-left-20{
+    margin-left: 20px;
+}
+
+.m-left-munis-200{
+    margin-left: -200px;
+}
+
+.m-top-minus-300{
+    margin-top: -300px;
+}
+
+.m-top-minus-200{
+    margin-top: -200px;
 }

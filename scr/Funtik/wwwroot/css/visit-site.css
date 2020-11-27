@@ -65,7 +65,7 @@
     font-family: 'Sora';
     font-style: normal;
     font-weight: bold;
-    font-size: 46px;
+    font-size: 40px;
     line-height: 140%;
     letter-spacing: -0.02em;
 }
@@ -74,7 +74,7 @@
     font-family: Sora;
     font-style: normal;
     font-weight: normal;
-    font-size: 21px;
+    font-size: 18px;
     line-height: 140%;
     display: flex;
     align-items: center;
@@ -86,7 +86,7 @@
     font-family: Sora;
     font-style: normal;
     font-weight: bold;
-    font-size: 21px;
+    font-size: 18px;
     line-height: 140%;
     letter-spacing: -0.02em;
     text-decoration-line: underline;
@@ -164,6 +164,10 @@ footer{
     margin-left: 20px;
 }
 
+.m-left-40{
+    margin-left: 40px;
+}
+
 .m-left-minus-70{
     margin-left:-70px;
 }
@@ -172,8 +176,8 @@ footer{
     margin-left: -200px;
 }
 
-.m-top-minus-300{
-    margin-top: -300px;
+.m-top-minus-250{
+    margin-top: -250px;
 }
 
 .m-top-minus-210{
@@ -196,3 +200,8 @@ footer{
 .m-top-5{
     margin-top:5px;
 }
+
+@font-face {
+    font-family: 'Sora';
+    src: url(../fonts/sora/Sora-VariableFont_wght.ttf);
+  }

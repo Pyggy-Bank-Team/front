@@ -47,6 +47,20 @@
     color: #4E4B66;
 }
 
+.body-circle{
+    z-index: -1;
+    position: absolute;
+    float: right;
+    background-color: #CF5EA4;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    opacity: 0.1;
+    bottom: 0;
+    left: 0;
+    margin-left: -100px;
+}
+
 .body-main-text{
     font-family: 'Sora';
     font-style: normal;
@@ -56,7 +70,7 @@
     letter-spacing: -0.02em;
 }
 
-.body-add-text{
+.body-additional-text{
     font-family: Sora;
     font-style: normal;
     font-weight: normal;
@@ -66,6 +80,17 @@
     align-items: center;
     letter-spacing: -0.02em;
     color: #6E7191;
+}
+
+.body-mail-text{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+    color: #4E4B66;
 }
 
 .display-inline{
@@ -139,6 +164,10 @@ footer{
     margin-left: 20px;
 }
 
+.m-left-minus-70{
+    margin-left:-70px;
+}
+
 .m-left-munis-200{
     margin-left: -200px;
 }
@@ -147,6 +176,23 @@ footer{
     margin-top: -300px;
 }
 
-.m-top-minus-200{
-    margin-top: -200px;
+.m-top-minus-210{
+    margin-top: -210px;
+}
+
+.z-index-1{
+    z-index: -1;
+    position: absolute;
+}
+
+.m-top-145{
+    margin-top: 145px;
+}
+
+.m-left-minus-140{
+    margin-left: -140px;
+}
+
+.m-top-5{
+    margin-top:5px;
 }

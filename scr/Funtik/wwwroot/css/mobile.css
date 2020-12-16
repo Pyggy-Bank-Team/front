@@ -1,0 +1,10 @@
+@media (min-width:450px) and (max-width:950px){
+    .header-title{
+        display: none;
+    }
+
+    .header-button{
+        display: none;
+    }
+
+}

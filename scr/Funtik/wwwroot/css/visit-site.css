@@ -1,3 +1,8 @@
+@import 'mobile-app-style.css';
+@import '720-app-style.css';
+@import '960-app-style.css';
+@import '1200-app-style.css';
+
 .body{
     background-color: white;
 }
@@ -95,6 +100,10 @@
 
 .display-inline{
     display: inline;
+}
+
+.display-flex{
+    display: flex;
 }
 
 .footer-logo{

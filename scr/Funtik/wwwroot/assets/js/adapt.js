@@ -17,9 +17,7 @@
   if (!config) {
     return;
   }
-
-  console.log(config.path);
-
+  
   // Empty vars to use later.
   var url, url_old, timer;
 

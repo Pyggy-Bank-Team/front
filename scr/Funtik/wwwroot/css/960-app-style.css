@@ -1,0 +1,29 @@
+.h-logo-960{
+    width: 37px;
+    height: 37px;
+}
+
+.h-title-960{
+    position: absolute;
+    top:10px;
+    margin-left: 10px;
+    display: inline;
+}
+
+.h-title-app-name-960{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 480;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0.44px;
+    color: #CF5EA4;
+}
+
+.h-title-description-960{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 7.8px;
+    line-height: 100%;
+    color: #4E4B66;
+}

@@ -21,6 +21,43 @@ function resize(i, width){
 }
 
 function setMobileStyles(){
+
+    var mainText = document.getElementById("b-main-text");
+    if(mainText){
+        mainText.className = "";
+        mainText.className = "b-main-text-720";
+    }
+
+    var mainIgmCont = document.getElementById("b-main-img-container-2");
+    if(mainIgmCont){
+        mainIgmCont.style.cssText="";
+    }
+
+    var mainIgmCont = document.getElementById("b-main-img-container");
+    if(mainIgmCont){
+        mainIgmCont.style.cssText="display:none";
+    }
+
+    var mainIgm = document.getElementById("b-main-img");
+    if(mainIgm){
+        mainIgmCont.style.cssText="display:none";
+    }
+
+    var cloudsCont = document.getElementById("clouds");
+    if(cloudsCont){
+        cloudsCont.classList.add("b_clouds-cont-mobile");
+    }
+
+    var grpClouds1 = document.getElementById("grp-clouds-1");
+    if(grpClouds1){
+        grpClouds1.classList.add("b-clouds")
+    }
+
+    var grpClouds2 = document.getElementById("grp-clouds-2");
+    if(grpClouds2){
+        grpClouds2.classList.add("b-clouds")
+    }
+
     var headerImg = document.getElementById("header-img");
     if(headerImg){
         headerImg.className = "";
@@ -65,6 +102,46 @@ function setMobileStyles(){
 
 function set720Styles(){
 
+    var mainText = document.getElementById("b-main-text");
+    if(mainText){
+        mainText.className = "";
+        mainText.className = "b-main-text-720";
+    }
+
+    var mainIgmCont = document.getElementById("b-main-img-container-2");
+    if(mainIgmCont){
+        mainIgmCont.style.cssText="display:none";
+    }
+
+    var mainIgmCont = document.getElementById("b-main-img-container");
+    if(mainIgmCont){
+        mainIgmCont.style.cssText = "";
+        mainIgmCont.className = "";
+        mainIgmCont.className = "b-main-img-cont-720";
+    }
+
+    var mainIgm = document.getElementById("b-main-img");
+    if(mainIgm){
+        mainIgmCont.style.cssText = "";
+        mainIgm.className = "";
+        mainIgm.className = "b-main-img-720";
+    }
+
+    var cloudsCont = document.getElementById("clouds");
+    if(cloudsCont){
+        cloudsCont.classList.remove("b_clouds-cont-mobile");
+    }
+
+    var grpClouds1 = document.getElementById("grp-clouds-1");
+    if(grpClouds1){
+        grpClouds1.classList.remove("b-clouds")
+    }
+
+    var grpClouds2 = document.getElementById("grp-clouds-2");
+    if(grpClouds2){
+        grpClouds2.classList.remove("b-clouds")
+    }
+
     var headerImg = document.getElementById("header-img");
     if(headerImg){
         headerImg.className = "";
@@ -106,6 +183,18 @@ function set720Styles(){
         headerNameAndDescription.style.cssText="";
     }
 
+    var langueButt = document.getElementById("h-language-butt");
+    if(langueButt){
+        langueButt.className = "";
+        langueButt.className = "h-language-butt-720";
+    }
+
+    var langueButtContent = document.getElementById("h-language-butt-content");
+    if(langueButtContent){
+        langueButtContent.className = "";
+        langueButtContent.className = "h-language-butt-content-720";
+    }
+
     var langueButton = document.getElementById("header-language-button");
     if(langueButton){
         langueButton.style.cssText="";
@@ -122,6 +211,46 @@ function set720Styles(){
 }
 
 function set960Styles(){
+
+    var mainText = document.getElementById("b-main-text");
+    if(mainText){
+        mainText.className = "";
+        mainText.className = "b-main-text-960";
+    }
+
+    var mainIgmCont = document.getElementById("b-main-img-container-2");
+    if(mainIgmCont){
+        mainIgmCont.style.cssText="display:none";
+    }
+
+    var mainIgmCont = document.getElementById("b-main-img-container");
+    if(mainIgmCont){
+        mainIgmCont.style.cssText = "";
+        mainIgmCont.className = "";
+        mainIgmCont.className = "b-main-img-cont-960";
+    }
+
+    var mainIgm = document.getElementById("b-main-img");
+    if(mainIgm){
+        mainIgmCont.style.cssText = "";
+        mainIgm.className = "";
+        mainIgm.className = "b-main-img-960";
+    }
+
+    var cloudsCont = document.getElementById("clouds");
+    if(cloudsCont){
+        cloudsCont.classList.remove("b_clouds-cont-mobile");
+    }
+
+    var grpClouds1 = document.getElementById("grp-clouds-1");
+    if(grpClouds1){
+        grpClouds1.classList.remove("b-clouds")
+    }
+
+    var grpClouds2 = document.getElementById("grp-clouds-2");
+    if(grpClouds2){
+        grpClouds2.classList.remove("b-clouds")
+    }
 
     var headerImg = document.getElementById("header-img");
     if(headerImg){
@@ -165,6 +294,18 @@ function set960Styles(){
         headerNameAndDescription.style.cssText="";
     }
 
+    var langueButt = document.getElementById("h-language-butt");
+    if(langueButt){
+        langueButt.className = "";
+        langueButt.className = "h-language-butt-960";
+    }
+
+    var langueButtContent = document.getElementById("h-language-butt-content");
+    if(langueButtContent){
+        langueButtContent.className = "";
+        langueButtContent.className = "h-language-butt-content-960";
+    }
+
     var langueButton = document.getElementById("header-language-button");
     if(langueButton){
         langueButton.style.cssText="";
@@ -181,6 +322,46 @@ function set960Styles(){
 }
 
 function set1200Styles(){
+
+    var mainText = document.getElementById("b-main-text");
+    if(mainText){
+        mainText.className = "";
+        mainText.className = "b-main-text-1200";
+    }
+
+    var mainIgmCont = document.getElementById("b-main-img-container-2");
+    if(mainIgmCont){
+        mainIgmCont.style.cssText="display:none";
+    }
+
+    var mainIgmCont = document.getElementById("b-main-img-container");
+    if(mainIgmCont){
+        mainIgmCont.style.cssText = "";
+        mainIgmCont.className = "";
+        mainIgmCont.className = "b-main-img-cont-1200";
+    }
+
+    var mainIgm = document.getElementById("b-main-img");
+    if(mainIgm){
+        mainIgmCont.style.cssText = "";
+        mainIgm.className = "";
+        mainIgm.className = "b-main-img-1200";
+    }
+
+    var cloudsCont = document.getElementById("clouds");
+    if(cloudsCont){
+        cloudsCont.classList.remove("b_clouds-cont-mobile");
+    }
+
+    var grpClouds1 = document.getElementById("grp-clouds-1");
+    if(grpClouds1){
+        grpClouds1.classList.remove("b-clouds")
+    }
+
+    var grpClouds2 = document.getElementById("grp-clouds-2");
+    if(grpClouds2){
+        grpClouds2.classList.remove("b-clouds")
+    }
 
     var headerImg = document.getElementById("header-img");
     if(headerImg){
@@ -220,6 +401,18 @@ function set1200Styles(){
     var headerNameAndDescription = document.getElementById("header-name-description");
     if(headerNameAndDescription){
         headerNameAndDescription.style.cssText="";
+    }
+
+    var langueButt = document.getElementById("h-language-butt");
+    if(langueButt){
+        langueButt.className = "";
+        langueButt.className = "h-language-butt-1200";
+    }
+
+    var langueButtContent = document.getElementById("h-language-butt-content");
+    if(langueButtContent){
+        langueButtContent.className = "";
+        langueButtContent.className = "h-language-butt-content-1200";
     }
 
     var langueButton = document.getElementById("header-language-button");

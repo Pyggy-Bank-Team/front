@@ -27,3 +27,44 @@
     line-height: 100%;
     color: #4E4B66;
 }
+
+.h-language-butt-1200{
+    align-items: center;
+    padding: 10px 25px;
+    border: 1px solid #A0A3BD;
+    box-sizing: border-box;
+    border-radius: 5.02817px;
+    background-color: transparent;
+}
+
+.h-language-butt-content-1200{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: black;
+}
+
+.b-main-text-1200{
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    padding-top: 20px;
+}
+
+.b-main-img-1200{
+    position: absolute;
+    z-index: -1;
+    height: 724px;
+    width: 655px;   
+}
+
+.b-main-img-cont-1200{
+    margin:-30% 0 0 -25%;
+}

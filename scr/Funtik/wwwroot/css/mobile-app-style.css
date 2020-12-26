@@ -19,3 +19,13 @@
     letter-spacing: 0.352px;
     color: #CF5EA4;
 }
+
+.b-clouds{
+    float: left;
+    width: 50%;
+}
+
+.b_clouds-cont-mobile{
+    z-index: -1;
+    position: absolute;
+}

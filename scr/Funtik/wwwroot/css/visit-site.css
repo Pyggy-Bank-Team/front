@@ -7,51 +7,6 @@
     background-color: white;
 }
 
-.header-title{
-    position: absolute;
-    top:10px;
-    margin-left: 10px;
-}
-
-.header-button{
-    align-items: center;
-    padding: 10px 25px;
-    border: 1px solid #CF5EA4;
-    box-sizing: border-box;
-    border-radius: 5.02817px;
-    color: #CF5EA4;
-    background-color: transparent;
-}
-
-.header-button-content{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 21px;
-    text-align: center;
-    letter-spacing: -0.5px;
-    color: #CF5EA4;
-}
-
-.header-title-app-name{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 23px;
-    line-height: 100%;
-    letter-spacing: 0.55px;
-    color: #CF5EA4;
-}
-
-.header-title-description{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-size: 9.8px;
-    line-height: 100%;
-    color: #4E4B66;
-}
-
 .body-circle{
     z-index: -1;
     position: absolute;
@@ -73,6 +28,7 @@
     font-size: 40px;
     line-height: 140%;
     letter-spacing: -0.02em;
+    padding-top: 20px;
 }
 
 .body-additional-text{

@@ -18,7 +18,7 @@
           // true = Change on window resize and page tilt.
           dynamic: true,
 
-          callback: resize,
+          callback: onResize,
         
           // First range entry is the minimum.
           // Last range entry is the maximum.
@@ -117,7 +117,6 @@
         <div class="clear"></div> 
         
           <!-- The app links -->
-
         
     <div class="grid_4 p-top-20">
 
@@ -137,31 +136,37 @@
 
     <div class="clear"></div>
 
-    <div class="grid_5 m-top-145">
-        <div class="grid_3 body-additional-text alpha">
-            <span>For any questions:</span>
+    <!-- Contacts-->
+
+    <div id="contact-cont" class="b-contact-cont-1200">
+
+        <div class="grid_6">
+            <div class="grid_3 b-contact-text-1200 alpha">
+                <span>For any questions:</span>
+            </div>
+    
+            <dvi class="grid_3 b-mail-text-1200 omega">
+                <span>support@piggybank.pro</span>    
+            </dvi>   
         </div>
+    
+        <div class="clear"></div>
+    
+        <div class="grid_6">
+            <div class="grid_2 b-contact-text-1200 alpha">
+                <span>Follow us:</span>
+            </div>
+    
+            <div id="app-links-cont" class="grid_2 b-links-cont omega">
+                <a target="_blank" href="https://github.com/Pyggy-Bank-Team">
+                    <img src="images/color-log-github.svg"/>             
+                </a>
+                <a target="_blank" href="https://t.me/piggybank_team">
+                    <img src="images/color-log-telegram.svg"/>
+                </a>
+            </div>
+        </div>   
 
-        <dvi class="grid_3 body-mail-text m-left-minus-70 omega">
-            <span>support@piggybank.pro</span>    
-        </dvi>   
-    </div>
-
-    <div class="clear"></div>
-
-    <div class="grid_6">
-        <div class="grid_3 body-additional-text m-top-5 alpha">
-            <span>Follow us:</span>
-        </div>
-
-        <div class="grid_3 m-left-minus-140 omega">
-            <a target="_blank" href="https://github.com/Pyggy-Bank-Team">
-                <img src="images/color-log-github.svg"/>             
-            </a>
-            <a target="_blank" href="https://t.me/piggybank_team">
-                <img src="images/color-log-telegram.svg"/>
-            </a>
-        </div>
     </div>   
 
     <div class="clear"></div>

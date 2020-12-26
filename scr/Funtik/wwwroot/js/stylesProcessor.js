@@ -1,6 +1,6 @@
 var styles = ["mobile", "720", "960", "1200"];
 
-function resize(i, width){
+function onResize(i, width){
 
     var style = styles[i];
 

@@ -68,3 +68,36 @@
 .b-main-img-cont-1200{
     margin:-30% 0 0 -25%;
 }
+
+.b-contact-cont-1200{
+    margin-top:13%;
+}
+
+.b-contact-text-1200{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #6E7191;
+}
+
+.b-mail-text-1200{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+    color: #4E4B66;
+    position:absolute;
+    margin-left: -6.5% !important;
+}
+
+.b-links-cont{
+    margin-left:-15% !important;
+}

@@ -22,6 +22,24 @@ function onResize(i, width){
 
 function setMobileStyles(){
 
+    var footerEmail = document.getElementById("f-email");
+    if(footerEmail){
+        footerEmail.className = "";
+        footerEmail.className = "f-email-mobile";
+    }
+
+    var footerLogo = document.getElementById("f-logo");
+    if(footerLogo){
+        footerLogo.className = "";
+        footerLogo.className = "f-logo-moblie";
+    }
+
+    var footerAppName = document.getElementById("f-app-name");
+    if(footerAppName){
+        footerAppName.className = "";
+        footerAppName.className = "f-app-name-mobile";
+    }
+
     var mainText = document.getElementById("b-main-text");
     if(mainText){
         mainText.className = "";
@@ -101,6 +119,24 @@ function setMobileStyles(){
 }
 
 function set720Styles(){
+
+    var footerEmail = document.getElementById("f-email");
+    if(footerEmail){
+        footerEmail.className = "";
+        footerEmail.className = "f-email-720";
+    }
+
+    var footerLogo = document.getElementById("f-logo");
+    if(footerLogo){
+        footerLogo.className = "";
+        footerLogo.className = "f-logo-720";
+    }
+
+    var footerAppName = document.getElementById("f-app-name");
+    if(footerAppName){
+        footerAppName.className = "";
+        footerAppName.className = "f-app-name-720";
+    }
 
     var mainText = document.getElementById("b-main-text");
     if(mainText){
@@ -212,6 +248,24 @@ function set720Styles(){
 
 function set960Styles(){
 
+    var footerEmail = document.getElementById("f-email");
+    if(footerEmail){
+        footerEmail.className = "";
+        footerEmail.className = "f-email-960";
+    }
+
+    var footerLogo = document.getElementById("f-logo");
+    if(footerLogo){
+        footerLogo.className = "";
+        footerLogo.className = "f-logo-960";
+    }
+
+    var footerAppName = document.getElementById("f-app-name");
+    if(footerAppName){
+        footerAppName.className = "";
+        footerAppName.className = "f-app-name-960";
+    }
+
     var mainText = document.getElementById("b-main-text");
     if(mainText){
         mainText.className = "";
@@ -322,6 +376,24 @@ function set960Styles(){
 }
 
 function set1200Styles(){
+
+    var footerEmail = document.getElementById("f-email");
+    if(footerEmail){
+        footerEmail.className = "";
+        footerEmail.className = "f-email-1200";
+    }
+
+    var footerLogo = document.getElementById("f-logo");
+    if(footerLogo){
+        footerLogo.className = "";
+        footerLogo.className = "f-logo-1200";
+    }
+
+    var footerAppName = document.getElementById("f-app-name");
+    if(footerAppName){
+        footerAppName.className = "";
+        footerAppName.className = "f-app-name-1200";
+    }
 
     var mainText = document.getElementById("b-main-text");
     if(mainText){

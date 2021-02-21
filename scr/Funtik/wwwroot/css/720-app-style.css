@@ -68,3 +68,31 @@
 .b-main-img-cont-720{
     margin:-30% 0 0 -25%;
 }
+
+.f-logo-720{
+    position: relative;
+    opacity: 0.6;
+    top: 40px;
+}
+
+.f-app-name-720{
+    position: relative;
+    color: #A0A3BD;
+    font-size: 10.24px;
+    font-weight: 384;
+    letter-spacing: 0.55px;
+    font-family: 'Poppins';
+    top: 43px;
+}
+
+.f-email-720{
+    position: relative;
+    color: #A0A3BD;
+    opacity: 0.8;
+    font-size: 13.4px;
+    font-weight: 384;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    font-family: 'Poppins';
+    top: 80px;
+}

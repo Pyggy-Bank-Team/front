@@ -29,3 +29,31 @@
     z-index: -1;
     position: absolute;
 }
+
+.f-logo-moblie{
+    position: relative;
+    opacity: 0.6;
+    top: 40px;
+}
+
+.f-app-name-mobile{
+    position: relative;
+    color: #A0A3BD;
+    font-size: 8.19px;
+    font-weight: 307.2;
+    letter-spacing: 0.55px;
+    font-family: 'Poppins';
+    top: 43px;
+}
+
+.f-email-mobile{
+    position: relative;
+    color: #A0A3BD;
+    opacity: 0.8;
+    font-size: 10.72px;
+    font-weight: 307.2;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    font-family: 'Poppins';
+    top: 80px;
+}

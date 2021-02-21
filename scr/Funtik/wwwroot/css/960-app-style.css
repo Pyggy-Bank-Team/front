@@ -68,3 +68,31 @@
 .b-main-img-cont-960{
     margin:-30% 0 0 -25%;
 }
+
+.f-logo-960{
+    position: relative;
+    opacity: 0.6;
+    top: 40px;
+}
+
+.f-app-name-960{
+    position: relative;
+    color: #A0A3BD;
+    font-size: 12.8px;
+    font-weight: 480;
+    letter-spacing: 0.55px;
+    font-family: 'Poppins';
+    top: 43px;
+}
+
+.f-email-960{
+    position: relative;
+    color: #A0A3BD;
+    opacity: 0.8;
+    font-size: 16.8px;
+    font-weight: 480;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    font-family: 'Poppins';
+    top: 80px;
+}

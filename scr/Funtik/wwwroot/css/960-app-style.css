@@ -58,6 +58,10 @@
     padding-top: 20px;
 }
 
+.b-log-winstore-960{
+    margin-left: 0;
+}
+
 .b-main-img-960{
     position: absolute;
     z-index: -1;
@@ -66,7 +70,7 @@
 }
 
 .b-main-img-cont-960{
-    margin:-30% 0 0 -25%;
+    margin:-20% 0 0 -45%;
 }
 
 .f-logo-960{

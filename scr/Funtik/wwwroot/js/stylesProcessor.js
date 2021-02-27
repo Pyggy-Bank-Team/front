@@ -291,6 +291,13 @@ function set960Styles(){
         mainIgm.className = "b-main-img-960";
     }
 
+    var logWinStorer = document.getElementById('b-log-winstore');
+    if(logWinStorer){
+        logWinStorer.style.cssText = "";
+        logWinStorer.className = "";
+        logWinStorer.className = "b-log-winstore-960";
+    }
+
     var cloudsCont = document.getElementById("clouds");
     if(cloudsCont){
         cloudsCont.classList.remove("b_clouds-cont-mobile");
@@ -418,6 +425,13 @@ function set1200Styles(){
         mainIgmCont.style.cssText = "";
         mainIgm.className = "";
         mainIgm.className = "b-main-img-1200";
+    }
+
+    var logWinStorer = document.getElementById('b-log-winstore');
+    if(logWinStorer){
+        logWinStorer.style.cssText = "";
+        logWinStorer.className = "";
+        logWinStorer.className = "b-log-winstore-1200";
     }
 
     var cloudsCont = document.getElementById("clouds");

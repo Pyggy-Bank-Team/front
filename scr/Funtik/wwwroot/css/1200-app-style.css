@@ -52,10 +52,26 @@
     font-family: 'Sora';
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 48px;
     line-height: 140%;
     letter-spacing: -0.02em;
     padding-top: 20px;
+}
+
+.p-top-40{
+    padding-top: 40px;
+}
+
+.b-right-store{
+    margin-left: -5% !important;
+}
+
+.p-top-20{
+    padding-top: 20px;
+}
+
+.p-top-5{
+    padding-top: 5px;
 }
 
 .b-main-img-1200{
@@ -66,7 +82,7 @@
 }
 
 .b-main-img-cont-1200{
-    margin:-30% 0 0 -25%;
+    margin:-20%  0 0 -45%;
 }
 
 .b-contact-cont-1200{

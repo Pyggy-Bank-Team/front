@@ -138,6 +138,31 @@ function set720Styles(){
         footerAppName.className = "f-app-name-720";
     }
 
+    var logWinStorer = document.getElementById('b-log-winstore');
+    if(logWinStorer){
+        logWinStorer.className = "b-log-winstore-720";
+    }
+
+    var logAppStore = document.getElementById("b-img-appstore");
+    if(logAppStore){
+        logAppStore.className = "b-img-appstore-720";
+    }
+
+    var logWinStore = document.getElementById("b-img-winstore");
+    if(logWinStore){
+        logWinStore.className = "b-img-winstore-720";
+    }
+
+    var socialMedias = document.getElementById("app-links-cont");
+    if(socialMedias){
+        socialMedias.className = "b-links-cont-720";
+    }
+
+    var mailText = document.getElementById("b-mail-text");
+    if(mailText){
+        mailText.className = "b-mail-text-720";
+    }
+
     var mainText = document.getElementById("b-main-text");
     if(mainText){
         mainText.className = "";
@@ -264,6 +289,26 @@ function set960Styles(){
     if(footerAppName){
         footerAppName.className = "";
         footerAppName.className = "f-app-name-960";
+    }
+
+    var logAppStore = document.getElementById("b-img-appstore");
+    if(logAppStore){
+        logAppStore.className = "b-img-appstore-960";
+    }
+
+    var logWinStore = document.getElementById("b-img-winstore");
+    if(logWinStore){
+        logWinStore.className = "b-img-winstore-960";
+    }
+
+    var socialMedias = document.getElementById("app-links-cont");
+    if(socialMedias){
+        socialMedias.className = "b-links-cont-960";
+    }
+
+    var mailText = document.getElementById("b-mail-text");
+    if(mailText){
+        mailText.className = "b-mail-text-960";
     }
 
     var mainText = document.getElementById("b-main-text");
@@ -400,6 +445,26 @@ function set1200Styles(){
     if(footerAppName){
         footerAppName.className = "";
         footerAppName.className = "f-app-name-1200";
+    }
+
+    var logAppStore = document.getElementById("b-img-appstore");
+    if(logAppStore){
+        logAppStore.className = "b-img-appstore-1200";
+    }
+
+    var logWinStore = document.getElementById("b-img-winstore");
+    if(logWinStore){
+        logWinStore.className = "b-img-winstore-1200";
+    }
+
+    var socialMedias = document.getElementById("app-links-cont");
+    if(socialMedias){
+        socialMedias.className = "b-links-cont-1200";
+    }
+
+    var mailText = document.getElementById("b-mail-text");
+    if(mailText){
+        mailText.className = "b-mail-text-1200";
     }
 
     var mainText = document.getElementById("b-main-text");

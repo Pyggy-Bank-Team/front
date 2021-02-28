@@ -114,8 +114,18 @@
     margin-left: -6.5% !important;
 }
 
-.b-links-cont{
-    margin-left:-15% !important;
+.b-links-cont-1200{
+    margin-left:-55% !important;
+}
+
+.b-img-appstore-1200{
+    height: 45px;
+    width: 153px;
+}
+
+.b-img-winstore-1200{
+    height: 45px;
+    width: 153px;
 }
 
 .f-logo-1200{

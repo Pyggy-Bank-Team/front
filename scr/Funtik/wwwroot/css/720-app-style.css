@@ -61,12 +61,43 @@
 .b-main-img-720{
     position: absolute;
     z-index: -1;
-    height: 463,2px;
-    width: 419,0px;   
+    height: 463.2px;
+    width: 419.0px;   
+}
+
+.b-mail-text-720{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+    color: #4E4B66;
+    position:absolute;
+    margin-left: -1.5% !important;
+}
+
+.b-links-cont-720{
+    margin-left:-25% !important;
+}
+
+.b-log-winstore-720{
+    margin-left: 10%;
 }
 
 .b-main-img-cont-720{
-    margin:-30% 0 0 -25%;
+    margin: 0 0 0 -55%;
+}
+
+.b-img-appstore-720{
+    height: 40px;
+    width: 120px;
+}
+
+.b-img-winstore-720{
+    height: 40px;
+    width: 120px;
 }
 
 .f-logo-720{

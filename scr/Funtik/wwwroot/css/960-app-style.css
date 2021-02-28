@@ -48,6 +48,33 @@
     color: black;
 }
 
+.b-mail-text-960{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+    color: #4E4B66;
+    position:absolute;
+    margin-left: -4.5% !important;
+}
+
+.b-links-cont-960{
+    margin-left:-45% !important;
+}
+
+.b-img-appstore-960{
+    height: 45px;
+    width: 153px;
+}
+
+.b-img-winstore-960{
+    height: 45px;
+    width: 153px;
+}
+
 .b-main-text-960{
     font-family: 'Sora';
     font-style: normal;

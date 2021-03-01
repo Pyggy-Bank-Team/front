@@ -40,10 +40,29 @@ function setMobileStyles(){
         footerAppName.className = "f-app-name-mobile";
     }
 
+    var logWinStoreContainer = document.getElementById('b-log-winstore');
+    if(logWinStoreContainer){
+        logWinStoreContainer.className = "b-log-winstore-mobile";
+    }
+
+    var logAppStore = document.getElementById("b-img-appstore");
+    if(logAppStore){
+        logAppStore.className = "b-img-appstore-mobile";
+    }
+
+    var logWinStore = document.getElementById("b-img-winstore");
+    if(logWinStore){
+        logWinStore.className = "b-img-winstore-mobile";
+    }
+
+    var appLinksContainer = document.getElementById("b-app-links-container");
+    if(appLinksContainer){
+        appLinksContainer.className = "b-app-links-container-mobile";
+    }
+
     var mainText = document.getElementById("b-main-text");
     if(mainText){
-        mainText.className = "";
-        mainText.className = "b-main-text-720";
+        mainText.className = "b-main-text-mobile";
     }
 
     var mainIgmCont = document.getElementById("b-main-img-container-2");
@@ -61,61 +80,50 @@ function setMobileStyles(){
         mainIgmCont.style.cssText="display:none";
     }
 
-    var cloudsCont = document.getElementById("clouds");
-    if(cloudsCont){
-        cloudsCont.classList.add("b_clouds-cont-mobile");
-    }
-
     var grpClouds1 = document.getElementById("grp-clouds-1");
     if(grpClouds1){
-        grpClouds1.classList.add("b-clouds")
+        grpClouds1.className = "hidden";
     }
 
     var grpClouds2 = document.getElementById("grp-clouds-2");
     if(grpClouds2){
-        grpClouds2.classList.add("b-clouds")
+        grpClouds2.className = "hidden";
     }
 
     var headerImg = document.getElementById("header-img");
     if(headerImg){
-        headerImg.className = "";
-        headerImg.classList.add("h-logo-mobile");
+        headerImg.className = "h-logo-mobile";
     }    
 
     var headerLogAndName = document.getElementById("header-log-name");
     if(headerLogAndName){
-        headerLogAndName.classList.remove("display-inline");
-        headerLogAndName.classList.add("display-flex");
+        headerLogAndName.className = "display-flex";
     }
 
     var headerLog = document.getElementById("header-log");
     if(headerLog){
-        headerLog.classList.remove("display-inline");
-        headerLog.classList.add("display-flex");
-        headerLog.style.cssText="margin:0 auto; align-items:center;";
+        headerLog.className = "display-flex";
     }
 
-    var headerName = document.getElementById("header-app-name");
+    var headerName = document.getElementById("h-name-mobile");
     if(headerName){
-        headerName.style.cssText = "";
+        headerName.className = "h-title-mobile";
     }
     
-    var headerNameAndDescription = document.getElementById("header-name-description");
+    var headerNameAndDescription = document.getElementById("h-name-description");
     if(headerNameAndDescription){
-        headerNameAndDescription.style.cssText="display:none";
+        headerNameAndDescription.className = "hidden";
+    }
+
+    var langueButtContent = document.getElementById("h-language-butt-content");
+    if(langueButtContent){
+        langueButtContent.className = "h-language-butt-content-mobile";
     }
     
     var langueButton = document.getElementById("header-language-button");
     if(langueButton){
-        langueButton.classList.remove("f-right");
-        langueButton.style.cssText="display:none";
+        langueButton.className = "h-language-button-mobile";        
     }
-
-    var circle = document.getElementById("circle");
-    if(circle){
-        circle.classList.remove("body-circle");
-        circle.style.cssText="display:none";
-    }   
 }
 
 function set720Styles(){
@@ -151,6 +159,11 @@ function set720Styles(){
     var logWinStore = document.getElementById("b-img-winstore");
     if(logWinStore){
         logWinStore.className = "b-img-winstore-720";
+    }
+
+    var appLinksContainer = document.getElementById("b-app-links-container");
+    if(appLinksContainer){
+        appLinksContainer.className = "b-app-links-container-720";
     }
 
     var socialMedias = document.getElementById("app-links-cont");
@@ -234,14 +247,14 @@ function set720Styles(){
         headerLog.style.cssText="";
     }
 
-    var headerName = document.getElementById("header-app-name");
+    var headerName = document.getElementById("h-name-mobile");
     if(headerName){
-        headerName.style.cssText = "display:none";
-    }    
+        headerName.className = "hidden";
+    }
 
-    var headerNameAndDescription = document.getElementById("header-name-description");
+    var headerNameAndDescription = document.getElementById("h-name-description");
     if(headerNameAndDescription){
-        headerNameAndDescription.style.cssText="";
+        headerNameAndDescription.className = "h-title-1200";
     }
 
     var langueButt = document.getElementById("h-language-butt");
@@ -258,17 +271,8 @@ function set720Styles(){
 
     var langueButton = document.getElementById("header-language-button");
     if(langueButton){
-        langueButton.style.cssText="";
-        langueButton.classList.add("f-right");        
+        langueButton.className = "f-right";        
     }
-
-    var circle = document.getElementById("circle");
-    if(circle){
-        circle.style.cssText="";
-        circle.classList.add("body-circle");
-        circle.style.height="500px";
-        circle.style.width ="500px";   
-    }  
 }
 
 function set960Styles(){
@@ -289,6 +293,11 @@ function set960Styles(){
     if(footerAppName){
         footerAppName.className = "";
         footerAppName.className = "f-app-name-960";
+    }
+
+    var appLinksContainer = document.getElementById("b-app-links-container");
+    if(appLinksContainer){
+        appLinksContainer.className = "b-app-links-container-960";
     }
 
     var logAppStore = document.getElementById("b-img-appstore");
@@ -389,15 +398,14 @@ function set960Styles(){
         headerLog.style.cssText="";
     }
 
-    var headerName = document.getElementById("header-app-name");
+    var headerName = document.getElementById("h-name-mobile");
     if(headerName){
-        headerName.style.cssText = "display:none";
-    } 
+        headerName.className = "hidden";
+    }
 
-    var headerNameAndDescription = document.getElementById("header-name-description");
-
+    var headerNameAndDescription = document.getElementById("h-name-description");
     if(headerNameAndDescription){
-        headerNameAndDescription.style.cssText="";
+        headerNameAndDescription.className = "h-title-1200";
     }
 
     var langueButt = document.getElementById("h-language-butt");
@@ -414,16 +422,7 @@ function set960Styles(){
 
     var langueButton = document.getElementById("header-language-button");
     if(langueButton){
-        langueButton.style.cssText="";
-        langueButton.classList.add("f-right");        
-    }
-
-    var circle = document.getElementById("circle");
-    if(circle){
-        circle.style.cssText="";
-        circle.classList.add("body-circle");
-        circle.style.height="600px";
-        circle.style.width ="600px";   
+        langueButton.className = "f-right";        
     }   
 }
 
@@ -455,6 +454,11 @@ function set1200Styles(){
     var logWinStore = document.getElementById("b-img-winstore");
     if(logWinStore){
         logWinStore.className = "b-img-winstore-1200";
+    }
+
+    var appLinksContainer = document.getElementById("b-app-links-container");
+    if(appLinksContainer){
+        appLinksContainer.className = "b-app-links-container-1200";
     }
 
     var socialMedias = document.getElementById("app-links-cont");
@@ -544,14 +548,15 @@ function set1200Styles(){
         headerLog.classList.remove("display-flex");
         headerLog.style.cssText="";
     }
-    var headerName = document.getElementById("header-app-name");
-    if(headerName){
-        headerName.style.cssText = "display:none";
-    } 
 
-    var headerNameAndDescription = document.getElementById("header-name-description");
+    var headerName = document.getElementById("h-name-mobile");
+    if(headerName){
+        headerName.className = "hidden";
+    }
+
+    var headerNameAndDescription = document.getElementById("h-name-description");
     if(headerNameAndDescription){
-        headerNameAndDescription.style.cssText="";
+        headerNameAndDescription.className = "h-title-1200";
     }
 
     var langueButt = document.getElementById("h-language-butt");
@@ -568,13 +573,6 @@ function set1200Styles(){
 
     var langueButton = document.getElementById("header-language-button");
     if(langueButton){
-        langueButton.style.cssText="";
-        langueButton.classList.add("f-right");        
-    }
-
-    var circle = document.getElementById("circle");
-    if(circle){
-        circle.style.cssText="";
-        circle.classList.add("body-circle");   
-    }   
+        langueButton.className = "f-right";        
+    }  
 }

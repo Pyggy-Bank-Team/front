@@ -1,23 +1,65 @@
 .h-logo-mobile{
-    width: 24px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
 }
 
 .h-title-mobile{
-    position: absolute;
-    top:10px;
-    margin-left: 10px;
-    display: inline;
+    margin: 1% 0 0 1%;
 }
 
 .h-title-app-name-mobile{
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 384;
+    font-weight: 600;
     font-size: 14.4px;
     line-height: 100%;
     letter-spacing: 0.352px;
     color: #CF5EA4;
+}
+
+.h-language-button-mobile{
+    margin:-7% 0 0 70%;
+}
+
+.b-main-text-mobile{
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.b-app-links-container-mobile{
+    text-align: center;
+}
+
+.b-img-appstore-mobile{
+    height: 45px;
+    width: 153px;
+}
+
+.b-img-winstore-mobile{
+    height: 45px;
+    width: 153px;
+}
+
+.b-log-winstore-mobile{
+    margin-left: 0;
+    padding-top: 20px
+}
+
+.h-language-butt-content-mobile{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: black;
 }
 
 .b-clouds{
@@ -56,4 +98,8 @@
     letter-spacing: -0.02em;
     font-family: 'Poppins';
     top: 80px;
+}
+
+.hidden {
+    display: none;
 }

@@ -40,6 +40,21 @@ function setMobileStyles(){
         footerAppName.className = "f-app-name-mobile";
     }
 
+    var mailText = document.getElementById("b-mail-text");
+    if(mailText){
+        mailText.className = "b-mail-text-mobile";
+    }
+
+    var followText = document.getElementById("b-follow-text");
+    if(followText){
+        followText.classList = "b-contact-text-mobile";
+    }
+
+    var questionText = document.getElementById("b-question-text");
+    if(questionText){
+        questionText.className = "b-contact-text-mobile";
+    }
+
     var logWinStoreContainer = document.getElementById('b-log-winstore');
     if(logWinStoreContainer){
         logWinStoreContainer.className = "b-log-winstore-mobile";
@@ -58,6 +73,11 @@ function setMobileStyles(){
     var appLinksContainer = document.getElementById("b-app-links-container");
     if(appLinksContainer){
         appLinksContainer.className = "b-app-links-container-mobile";
+    }
+
+    var socialMedias = document.getElementById("app-links-cont");
+    if(socialMedias){
+        socialMedias.className = "b-links-cont-mobile";
     }
 
     var mainText = document.getElementById("b-main-text");
@@ -144,6 +164,16 @@ function set720Styles(){
     if(footerAppName){
         footerAppName.className = "";
         footerAppName.className = "f-app-name-720";
+    }
+
+    var followText = document.getElementById("b-follow-text");
+    if(followText){
+        followText.classList = "b-contact-text-1200";
+    }
+
+    var questionText = document.getElementById("b-question-text");
+    if(questionText){
+        questionText.className = "b-contact-text-1200";
     }
 
     var logWinStorer = document.getElementById('b-log-winstore');
@@ -295,6 +325,16 @@ function set960Styles(){
         footerAppName.className = "f-app-name-960";
     }
 
+    var followText = document.getElementById("b-follow-text");
+    if(followText){
+        followText.classList = "b-contact-text-1200";
+    }
+
+    var questionText = document.getElementById("b-question-text");
+    if(questionText){
+        questionText.className = "b-contact-text-1200";
+    }
+
     var appLinksContainer = document.getElementById("b-app-links-container");
     if(appLinksContainer){
         appLinksContainer.className = "b-app-links-container-960";
@@ -444,6 +484,16 @@ function set1200Styles(){
     if(footerAppName){
         footerAppName.className = "";
         footerAppName.className = "f-app-name-1200";
+    }
+
+    var followText = document.getElementById("b-follow-text");
+    if(followText){
+        followText.classList = "b-contact-text-1200";
+    }
+
+    var questionText = document.getElementById("b-question-text");
+    if(questionText){
+        questionText.className = "b-contact-text-1200";
     }
 
     var logAppStore = document.getElementById("b-img-appstore");

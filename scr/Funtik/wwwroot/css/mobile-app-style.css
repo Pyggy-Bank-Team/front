@@ -51,6 +51,40 @@
     padding-top: 20px
 }
 
+.b-contact-text-mobile{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #6E7191;
+}
+
+.b-mail-text-mobile{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+    color: #4E4B66;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.b-links-cont-mobile{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.b-main-img-mobile{
+    height: 463.2px;
+    width: 419.0px;   
+}
+
 .h-language-butt-content-mobile{
     font-family: 'Poppins';
     font-style: normal;

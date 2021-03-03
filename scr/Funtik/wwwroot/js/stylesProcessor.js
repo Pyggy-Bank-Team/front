@@ -3,6 +3,7 @@ var styles = ["mobile", "720", "960", "1200"];
 function onResize(i, width){
 
     var style = styles[i];
+    console.log(style);
 
     switch(style){
         case "mobile":
@@ -105,14 +106,9 @@ function setMobileStyles(){
         mainIgmCont.style.cssText="display:none";
     }
 
-    var grpClouds1 = document.getElementById("grp-clouds-1");
-    if(grpClouds1){
-        grpClouds1.className = "hidden";
-    }
-
-    var grpClouds2 = document.getElementById("grp-clouds-2");
-    if(grpClouds2){
-        grpClouds2.className = "hidden";
+    var cloudsCont = document.getElementById("clouds");
+    if(cloudsCont){
+        cloudsCont.className = "hidden";
     }
 
     var headerImg = document.getElementById("header-img");
@@ -243,7 +239,7 @@ function set720Styles(){
 
     var cloudsCont = document.getElementById("clouds");
     if(cloudsCont){
-        cloudsCont.classList.remove("b_clouds-cont-mobile");
+        cloudsCont.className = "";
     }
 
     var grpClouds1 = document.getElementById("grp-clouds-1");
@@ -409,7 +405,7 @@ function set960Styles(){
 
     var cloudsCont = document.getElementById("clouds");
     if(cloudsCont){
-        cloudsCont.classList.remove("b_clouds-cont-mobile");
+        cloudsCont.className = "";
     }
 
     var grpClouds1 = document.getElementById("grp-clouds-1");
@@ -575,7 +571,7 @@ function set1200Styles(){
 
     var cloudsCont = document.getElementById("clouds");
     if(cloudsCont){
-        cloudsCont.classList.remove("b_clouds-cont-mobile");
+        cloudsCont.className = "";
     }
 
     var grpClouds1 = document.getElementById("grp-clouds-1");

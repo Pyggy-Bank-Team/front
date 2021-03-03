@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8"/>
     <link href="css/visit-site.css" rel="stylesheet"/>  
-    <link href="fonts/poppins/poppins.css" rel="stylesheet"/>
+    <link href="fonts/poppins/poppins.css" rel="stylesheet"/>    
 </head>
 
-<body class="body" onload="onLoad">  
+<body class="body">  
 
     <!-- The main container for app -->
     <div class="container_12">
@@ -38,9 +38,16 @@
 
             <div class="grid_6 omega">
                 <div id="header-language-button" class="f-right">
-                    <button id="h-language-butt"  class="h-language-butt-1200">               
+                    <button id="h-language-butt" class="h-language-butt-1200" onclick="showMenuLanguges">               
                         <span id="h-language-butt-content" class="h-language-butt-content-1200">English</span>
+                        <img src="images/back.svg"/>
                     </button>
+
+                    <ul id="h-dropdonw-languges" class="h-dropdown" style="display: none;">
+                        <li><a href="#" class="h-dropdown-item">Русский</a></li>
+                        <li><a href="#" class="h-dropdown-item">English</a></li>
+                    </ul>
+
                 </div>
             </div>           
 
@@ -230,7 +237,7 @@
         };
         </script>
         <script src="assets/js/adapt.js"></script>
-
+        <script src="js/logic.js"></script>
 </body>
 
 </html>

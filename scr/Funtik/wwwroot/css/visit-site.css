@@ -170,3 +170,20 @@
     font-family: 'Sora';
     src: url(../fonts/sora/Sora-VariableFont_wght.ttf);
   }
+
+.h-dropdown{
+    color: black;
+    z-index: 100;
+    align-items: center;
+    padding: 10px 25px;
+    border: 1px solid #A0A3BD;
+    box-sizing: border-box;
+    border-radius: 5.02817px;
+    background-color: white;
+    list-style-type: none;
+    position:absolute;
+  }
+
+.h-dropdown-item{
+    text-decoration: none;
+}

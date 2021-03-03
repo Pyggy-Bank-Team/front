@@ -5,33 +5,6 @@
     <meta charset="utf-8"/>
     <link href="css/visit-site.css" rel="stylesheet"/>  
     <link href="fonts/poppins/poppins.css" rel="stylesheet"/>
-
-
-    <script src="js/stylesProcessor.js"></script>
-    <script>
-        // Edit to suit your needs.
-        var ADAPT_CONFIG = {
-          // Where is your CSS?
-          path: 'assets/css/',
-        
-          // false = Only run once, when page first loads.
-          // true = Change on window resize and page tilt.
-          dynamic: true,
-
-          callback: onResize,
-        
-          // First range entry is the minimum.
-          // Last range entry is the maximum.
-          // Separate ranges by "to" keyword.
-          range: [
-            '0px    to 760px  = mobile.min.css',
-            '760px  to 980px  = 720.min.css',
-            '980px  to 1280px = 960.min.css',
-            '1280px           = 1200.min.css'
-          ]
-        };
-        </script>
-        <script src="assets/js/adapt.js"></script>
 </head>
 
 <body class="body" onload="onLoad">  
@@ -231,6 +204,32 @@
         </div>
     
     </footer>
+
+    <script src="js/stylesProcessor.js"></script>
+    <script>
+        // Edit to suit your needs.
+        var ADAPT_CONFIG = {
+          // Where is your CSS?
+          path: 'assets/css/',
+        
+          // false = Only run once, when page first loads.
+          // true = Change on window resize and page tilt.
+          dynamic: true,
+
+          callback: onResize,
+        
+          // First range entry is the minimum.
+          // Last range entry is the maximum.
+          // Separate ranges by "to" keyword.
+          range: [
+            '0px    to 760px  = mobile.min.css',
+            '760px  to 980px  = 720.min.css',
+            '980px  to 1280px = 960.min.css',
+            '1280px           = 1200.min.css'
+          ]
+        };
+        </script>
+        <script src="assets/js/adapt.js"></script>
 
 </body>
 

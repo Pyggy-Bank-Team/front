@@ -164,13 +164,3 @@
     position: relative;
     top:90px;
 }
-
-footer{
-    background-color: #EEEFF9;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 255px;
-    width: 100%;
-    text-align: center;
-}

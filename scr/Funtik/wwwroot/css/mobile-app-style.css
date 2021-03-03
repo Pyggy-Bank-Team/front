@@ -137,3 +137,13 @@
 .hidden {
     display: none;
 }
+
+.footer-mobile{
+    background-color: #EEEFF9;
+    left: 0;
+    bottom: 0;
+    height: 255px;
+    width: 106.5%;
+    text-align: center;
+    margin: 0 0 0 -5%;
+}

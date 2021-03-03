@@ -22,6 +22,11 @@ function onResize(i, width){
 
 function setMobileStyles(){
 
+    var footerContainer = document.getElementById("f-contiener");
+    if(footerContainer){
+        footerContainer.className = "footer-mobile";
+    }
+
     var footerEmail = document.getElementById("f-email");
     if(footerEmail){
         footerEmail.className = "";
@@ -147,6 +152,11 @@ function setMobileStyles(){
 }
 
 function set720Styles(){
+
+    var footerContainer = document.getElementById("f-contiener");
+    if(footerContainer){
+        footerContainer.className = "footer";
+    }
 
     var footerEmail = document.getElementById("f-email");
     if(footerEmail){
@@ -306,6 +316,11 @@ function set720Styles(){
 }
 
 function set960Styles(){
+
+    var footerContainer = document.getElementById("f-contiener");
+    if(footerContainer){
+        footerContainer.className = "footer";
+    }
 
     var footerEmail = document.getElementById("f-email");
     if(footerEmail){
@@ -467,6 +482,11 @@ function set960Styles(){
 }
 
 function set1200Styles(){
+
+    var footerContainer = document.getElementById("f-contiener");
+    if(footerContainer){
+        footerContainer.className = "footer";
+    }
 
     var footerEmail = document.getElementById("f-email");
     if(footerEmail){

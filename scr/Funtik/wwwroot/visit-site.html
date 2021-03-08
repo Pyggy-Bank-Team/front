@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8"/>
     <link href="css/visit-site.css" rel="stylesheet"/>  
-    <link href="fonts/poppins/poppins.css" rel="stylesheet"/>    
+    <link href="fonts/poppins/poppins.css" rel="stylesheet"/>      
+    <script src="js/logic.js"></script>    
 </head>
 
 <body class="body">  
@@ -31,21 +32,21 @@
                         <span id="h-app-name" class="h-title-app-name-1200">PiggyBank</span>
                         <br/>
                         <span id="h-description" class="h-title-description-1200">Home budget planing platform</span>
-                    </div>                
+                    </div>
                 </div>         
     
             </div>
 
             <div class="grid_6 omega">
-                <div id="header-language-button" class="f-right">
-                    <button id="h-language-butt" class="h-language-butt-1200" onclick="showMenuLanguges">               
+                <div id="header-language-button" class="f-right" onclick="showLanguges()">
+                    <button id="h-language-butt" class="h-language-butt-1200">               
                         <span id="h-language-butt-content" class="h-language-butt-content-1200">English</span>
                         <img src="images/back.svg"/>
                     </button>
 
                     <ul id="h-dropdonw-languges" class="h-dropdown" style="display: none;">
-                        <li><a href="#" class="h-dropdown-item">Русский</a></li>
-                        <li><a href="#" class="h-dropdown-item">English</a></li>
+                        <li><a class="h-dropdown-item" onclick="changeToRussian()">Русский</a></li>
+                        <li><a class="h-dropdown-item" onclick="changeToEnglish()">English</a></li>
                     </ul>
 
                 </div>
@@ -237,7 +238,6 @@
         };
         </script>
         <script src="assets/js/adapt.js"></script>
-        <script src="js/logic.js"></script>
 </body>
 
 </html>

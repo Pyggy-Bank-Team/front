@@ -186,4 +186,9 @@
 
 .h-dropdown-item{
     text-decoration: none;
+    cursor: pointer;
+}
+
+.h-dropdown-item::before{    
+    background-color: #EFF0F6;
 }

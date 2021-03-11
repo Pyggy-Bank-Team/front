@@ -37,9 +37,8 @@ function setMobileStyles(){
     document.getElementById("app-links-cont").className = "b-links-cont-mobile";
     document.getElementById("b-main-text").className = "b-main-text-mobile";
 
-    document.getElementById("b-main-img-container-2").style.cssText="";
-    document.getElementById("b-main-img-container").style.cssText="display:none";
-    document.getElementById("b-main-img").style.cssText="display:none";
+    document.getElementById("b-main-img-container-2").className = "";
+    document.getElementById("b-main-img-container").className = "hidden";
     document.getElementById("clouds").className = "hidden";
 
     document.getElementById("header-img").className = "h-logo-mobile";
@@ -67,10 +66,8 @@ function set720Styles(){
     document.getElementById("app-links-cont").className = "b-links-cont-720";
     document.getElementById("b-mail-text").className = "b-mail-text-720";
     document.getElementById("b-main-text").className = "b-main-text-720";
-    document.getElementById("b-main-img-container-2").style.cssText="display:none";
+    document.getElementById("b-main-img-container-2").className = "hidden";
     document.getElementById("b-main-img-container").className = "b-main-img-cont-720";
-    document.getElementById("b-main-img-container").style.cssText = "";
-    document.getElementById("b-main-img").style.cssText = "";
     document.getElementById("b-main-img").className = "b-main-img-720";
     document.getElementById("clouds").className = "";
     document.getElementById("grp-clouds-1").classList.remove("b-clouds")
@@ -82,7 +79,6 @@ function set720Styles(){
     document.getElementById("h-description").className = "h-title-description-720";
     document.getElementById("header-log-name").classList.add("display-inline");
     document.getElementById("header-log-name").classList.remove("display-flex");
-    document.getElementById("header-log").style.cssText="";
     document.getElementById("header-log").classList.add("display-inline");
     document.getElementById("header-log").classList.remove("display-flex");
     document.getElementById("h-name-mobile").className = "hidden";
@@ -107,12 +103,9 @@ function set960Styles(){
     document.getElementById("app-links-cont").className = "b-links-cont-960";
     document.getElementById("b-mail-text").className = "b-mail-text-960";
     document.getElementById("b-main-text").className = "b-main-text-960";
-    document.getElementById("b-main-img-container-2").style.cssText="display:none";
-    document.getElementById("b-main-img-container").style.cssText = "";
+    document.getElementById("b-main-img-container-2").className = "hidden";
     document.getElementById("b-main-img-container").className = "b-main-img-cont-960";
-    document.getElementById("b-main-img").style.cssText = "";
     document.getElementById("b-main-img").className = "b-main-img-960";
-    document.getElementById('b-log-winstore').style.cssText = "";
     document.getElementById('b-log-winstore').className = "b-log-winstore-960";
     document.getElementById("clouds").className = "";
     document.getElementById("grp-clouds-1").classList.remove("b-clouds")
@@ -125,7 +118,6 @@ function set960Styles(){
     document.getElementById("header-log-name").classList.remove("display-flex");
     document.getElementById("header-log").classList.add("display-inline");
     document.getElementById("header-log").classList.remove("display-flex");
-    document.getElementById("header-log").style.cssText="";
     document.getElementById("h-name-mobile").className = "hidden";
     document.getElementById("h-name-description").className = "h-title-1200";
     document.getElementById("h-language-butt").className = "h-language-butt-960";
@@ -148,12 +140,9 @@ function set1200Styles(){
     document.getElementById("app-links-cont").className = "b-links-cont-1200";
     document.getElementById("b-mail-text").className = "b-mail-text-1200";
     document.getElementById("b-main-text").className = "b-main-text-1200";
-    document.getElementById("b-main-img-container-2").style.cssText="display:none";
-    document.getElementById("b-main-img-container").style.cssText = "";
+    document.getElementById("b-main-img-container-2").className = "hidden";
     document.getElementById("b-main-img-container").className = "b-main-img-cont-1200";
-    document.getElementById("b-main-img").style.cssText = "";
     document.getElementById("b-main-img").className = "b-main-img-1200";
-    document.getElementById('b-log-winstore').style.cssText = "";
     document.getElementById('b-log-winstore').className = "b-log-winstore-1200";
     document.getElementById("clouds").className = "";
     document.getElementById("grp-clouds-1").classList.remove("b-clouds");
@@ -167,7 +156,6 @@ function set1200Styles(){
     document.getElementById("header-log-name").classList.remove("display-flex");
     document.getElementById("header-log").classList.add("display-inline");
     document.getElementById("header-log").classList.remove("display-flex");
-    document.getElementById("header-log").style.cssText="";
     document.getElementById("h-name-mobile").className = "hidden";
     document.getElementById("h-name-description").className = "h-title-1200";
     document.getElementById("h-language-butt").className = "h-language-butt-1200";

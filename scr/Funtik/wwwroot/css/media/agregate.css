@@ -137,6 +137,44 @@
     .b-img-continer-2{
         display: none;
     }
+
+    .f-continer{
+        background-color: #EEEFF9;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 255px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .f-img{
+        position: relative;
+        opacity: 0.6;
+        top: 40px;
+    }
+
+    .f-name{
+        position: relative;
+        color: #A0A3BD;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 0.55px;
+        font-family: 'Poppins';
+        top: 43px;
+    }
+
+    .f-email{
+        position: relative;
+        color: #A0A3BD;
+        opacity: 0.8;
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 140%;
+        letter-spacing: -0.02em;
+        font-family: 'Poppins';
+        top: 80px;
+    }
 }
 
 @media (min-width:960px) and (max-width:1199px)
@@ -278,6 +316,44 @@
     .b-img-continer-2{
         display: none;
     }
+
+    .f-continer{
+        background-color: #EEEFF9;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 255px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .f-img{
+        position: relative;
+        opacity: 0.6;
+        top: 40px;
+    }
+
+    .f-name{
+        position: relative;
+        color: #A0A3BD;
+        font-size: 12.8px;
+        font-weight: 480;
+        letter-spacing: 0.55px;
+        font-family: 'Poppins';
+        top: 43px;
+    }
+
+    .f-email{
+        position: relative;
+        color: #A0A3BD;
+        opacity: 0.8;
+        font-size: 16.8px;
+        font-weight: 480;
+        line-height: 140%;
+        letter-spacing: -0.02em;
+        font-family: 'Poppins';
+        top: 80px;
+    }
 }
 
 @media (min-width:780px) and (max-width:959px)
@@ -418,6 +494,44 @@
     .b-img-continer-2{
         display: none;
     }
+
+    .f-continer{
+        background-color: #EEEFF9;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 255px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .f-img{
+        position: relative;
+        opacity: 0.6;
+        top: 40px;
+    }
+
+    .f-name{
+        position: relative;
+        color: #A0A3BD;
+        font-size: 10.24px;
+        font-weight: 384;
+        letter-spacing: 0.55px;
+        font-family: 'Poppins';
+        top: 43px;
+    }
+
+    .f-email{
+        position: relative;
+        color: #A0A3BD;
+        opacity: 0.8;
+        font-size: 13.4px;
+        font-weight: 384;
+        line-height: 140%;
+        letter-spacing: -0.02em;
+        font-family: 'Poppins';
+        top: 80px;
+    }
 }
 
 @media (min-width:320px) and (max-width:779px)
@@ -537,5 +651,43 @@
     .b-img-2{
         height: 463.2px;
         width: 419.0px;   
+    }
+
+    .f-continer{
+        background-color: #EEEFF9;
+        left: 0;
+        bottom: 0;
+        height: 255px;
+        width: 106.5%;
+        text-align: center;
+        margin: 0 0 0 -5%;
+    }
+
+    .f-img{
+        position: relative;
+        opacity: 0.6;
+        top: 40px;
+    }
+
+    .f-name{
+        position: relative;
+        color: #A0A3BD;
+        font-size: 8.19px;
+        font-weight: 307.2;
+        letter-spacing: 0.55px;
+        font-family: 'Poppins';
+        top: 43px;
+    }
+
+    .f-email{
+        position: relative;
+        color: #A0A3BD;
+        opacity: 0.8;
+        font-size: 10.72px;
+        font-weight: 307.2;
+        line-height: 140%;
+        letter-spacing: -0.02em;
+        font-family: 'Poppins';
+        top: 80px;
     }
 }

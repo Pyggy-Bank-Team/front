@@ -75,6 +75,68 @@
         letter-spacing: -0.02em;
         padding-top: 20px;
     }
+
+    .b-app-link-continer{
+        text-align: initial;
+    }
+
+    .b-appstore{
+        height: 45px;
+        width: 153px;
+    }
+
+    .b-winstore-continer{
+        margin-left: -5% !important;
+    }
+
+    .b-winstore{
+        height: 45px;
+        width: 153px;
+    }
+
+    .b-contact-text{
+        font-family: Sora;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 140%;
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.02em;
+        color: #6E7191;
+    }
+
+    .b-email-text{
+        font-family: Sora;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 140%;
+        letter-spacing: -0.02em;
+        text-decoration-line: underline;
+        color: #4E4B66;
+        position:absolute;
+        margin-left: -6.5% !important;
+    }
+
+    .b-app-continer{
+        margin-left:-55% !important;
+    }
+
+    .b-img-continer{
+        margin:-20%  0 0 -45%;
+    }
+
+    .b-img{
+        position: absolute;
+        z-index: -1;
+        height: 724px;
+        width: 655px;
+    }
+
+    .b-img-continer-2{
+        display: none;
+    }
 }
 
 @media (min-width:960px) and (max-width:1199px)
@@ -153,6 +215,68 @@
         line-height: 140%;
         letter-spacing: -0.02em;
         padding-top: 20px;
+    }
+
+    .b-app-link-continer{
+        text-align: initial;
+    }
+
+    .b-appstore{
+        height: 45px;
+        width: 153px;
+    }
+
+    .b-winstore-continer{
+        margin-left: 0;
+    }
+
+    .b-winstore{
+        height: 45px;
+        width: 153px;
+    }
+
+    .b-contact-text{
+        font-family: Sora;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 140%;
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.02em;
+        color: #6E7191;
+    }
+
+    .b-email-text{
+        font-family: Sora;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 140%;
+        letter-spacing: -0.02em;
+        text-decoration-line: underline;
+        color: #4E4B66;
+        position:absolute;
+        margin-left: -6.5% !important;
+    }
+
+    .b-app-continer{
+        margin-left:-45% !important;
+    }
+
+    .b-img-continer{
+        margin:-20% 0 0 -45%;
+    }
+
+    .b-img{
+        position: absolute;
+        z-index: -1;
+        height: 579.2px;
+        width: 524px; 
+    }
+
+    .b-img-continer-2{
+        display: none;
     }
 }
 
@@ -233,6 +357,67 @@
         letter-spacing: -0.02em;
         padding-top: 20px;
     }
+
+    .b-app-link-continer{
+        text-align: initial;
+    }
+
+    .b-appstore{
+        height: 40px;
+        width: 120px;
+    }
+
+    .b-winstore-continer{
+        margin-left: 10%;
+    }
+
+    .b-winstore{
+        height: 40px;
+        width: 120px;
+    }
+
+    .b-contact-text{
+        font-family: Sora;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 140%;
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.02em;
+        color: #6E7191;
+    }
+
+    .b-email-text{
+        font-family: Sora;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 140%;
+        letter-spacing: -0.02em;
+        text-decoration-line: underline;
+        color: #4E4B66;
+        position:absolute;
+    }
+
+    .b-app-continer{
+        margin-left:-25% !important;
+    }
+
+    .b-img-continer{
+        margin: 0 0 0 -55%;
+    }
+
+    .b-img{
+        position: absolute;
+        z-index: -1;
+        height: 463.2px;
+        width: 419.0px;  
+    }
+
+    .b-img-continer-2{
+        display: none;
+    }
 }
 
 @media (min-width:320px) and (max-width:779px)
@@ -295,5 +480,62 @@
         letter-spacing: -0.02em;
         padding-top: 40px;
         text-align: center;
+    }
+
+    .b-app-link-continer{
+        text-align: center;
+    }
+
+    .b-appstore{
+        height: 45px;
+        width: 153px;
+    }
+
+    .b-winstore-continer{
+        margin-left: 0;
+        padding-top: 20px
+    }
+
+    .b-winstore{
+        height: 45px;
+        width: 153px;
+    }
+
+    .b-contact-text{
+        font-family: Sora;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 140%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #6E7191;
+    }
+
+    .b-email-text{
+        font-family: Sora;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 140%;
+        letter-spacing: -0.02em;
+        text-decoration-line: underline;
+        color: #4E4B66;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .b-app-continer{
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .b-img-continer{
+        display: none;
+    }
+
+    .b-img-2{
+        height: 463.2px;
+        width: 419.0px;   
     }
 }

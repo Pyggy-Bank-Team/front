@@ -84,3 +84,7 @@
 .h-dropdown-item::before{    
     background-color: #EFF0F6;
 }
+
+.b-contact-container{
+    margin-top:13%;
+}

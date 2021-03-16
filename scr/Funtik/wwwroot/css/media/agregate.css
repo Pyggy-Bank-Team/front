@@ -549,6 +549,10 @@
         height: 30px;
     }
 
+    .b-img-continer-2{
+        text-align: center;
+    }
+
     .h-mobile-app-name{
         margin: 1% 0 0 1%;
     }
@@ -558,7 +562,7 @@
     }
 
     .h-langue-button-container{
-        margin:-7% 0 0 70%;
+        margin: -4% 0 0 80%;
     }
 
     .h-langue-button{
@@ -707,6 +711,10 @@
         height: 30px;
     }
 
+    .b-img-continer-2{
+        text-align: center;
+    }
+
     .h-mobile-app-name{
         margin: 1% 0 0 1%;
     }
@@ -847,5 +855,11 @@
         letter-spacing: -0.02em;
         font-family: 'Poppins';
         top: 80px;
+    }
+}
+
+@media (max-height:961px){
+    .b-img-continer{
+        margin: -45% 0 0 -45%;
     }
 }

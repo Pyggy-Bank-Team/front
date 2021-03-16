@@ -6,7 +6,29 @@
     <link href="css/visit-site.css" rel="stylesheet"/>  
     <link href="fonts/poppins/poppins.css" rel="stylesheet"/>
     <link href="css/media/agregate.css" rel="stylesheet"/>
-    <script src="js/logic.js"></script>    
+    <script src="js/logic.js"></script>
+    <script>
+        // Edit to suit your needs.
+        var ADAPT_CONFIG = {
+          // Where is your CSS?
+          path: 'assets/css/',
+        
+          // false = Only run once, when page first loads.
+          // true = Change on window resize and page tilt.
+          dynamic: true,
+        
+          // First range entry is the minimum.
+          // Last range entry is the maximum.
+          // Separate ranges by "to" keyword.
+          range: [
+            '0px    to 760px  = mobile.min.css',
+            '760px  to 980px  = 720.min.css',
+            '980px  to 1280px = 960.min.css',
+            '1280px           = 1200.min.css'
+          ]
+        };
+        </script>
+        <script src="assets/js/adapt.js"></script>
 </head>
 
 <body class="body">  
@@ -18,19 +40,19 @@
             <div class="grid_6 alpha">
 
                 <!-- The log on the top -->
-                <div id="header-log-name" class="h-log-name">
-                    <div id="header-log" class="h-log">
-                        <img id="header-img" class="h-img" src="images/log-top.svg"/>                        
+                <div class="h-log-name">
+                    <div class="h-log">
+                        <img class="h-img" src="images/log-top.svg"/>                        
                     </div>
     
-                    <div id="h-name-mobile" class="h-mobile-app-name">
+                    <div class="h-mobile-app-name">
                         <div>
-                            <span id="header-app-name" class="h-title-app-name-mobile">PiggyBank</span> 
+                            <span class="h-title-app-name-mobile">PiggyBank</span> 
                         </div>
                     </div>
     
-                    <div id="h-name-description" class="h-name-description-container">
-                        <span id="h-app-name" class="h-name">PiggyBank</span>
+                    <div class="h-name-description-container">
+                        <span class="h-name">PiggyBank</span>
                         <br/>
                         <span id="h-description" class="h-description">Home budget planing platform</span>
                     </div>
@@ -39,7 +61,7 @@
             </div>
 
             <div class="grid_6 omega">
-                <div id="header-language-button" class="h-langue-button-container" onclick="showLanguges()">
+                <div class="h-langue-button-container" onclick="showLanguges()">
                     <button id="h-language-butt" class="h-langue-button">
                         <span id="h-language-butt-content" class="h-langue-button-content">English</span>
                         <img src="images/back.svg"/>
@@ -61,9 +83,9 @@
 
         <div class="grid_12">
 
-            <div id="clouds" class="b-clouds-container">
+            <div class="b-clouds-container">
 
-                <div id="grp-clouds-1" class="grid_6 alpha">
+                <div class="grid_6 alpha">
 
                     <div class="grid_3 p-top-50 alpha">
                         <svg width="84" height="24" viewBox="0 0 84 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -79,7 +101,7 @@
     
                 </div>
     
-                <div id="grp-clouds-2" class="grid_6 omega">
+                <div class="grid_6 omega">
                     <div class="grid_3 p-top-70 m-left-20 alpha">
                         <svg width="130" height="43" viewBox="0 0 136 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path opacity="0.6" d="M0.252686 33.4546C0.252686 35.056 0.868599 36.5342 1.97724 37.5196C2.9627 38.6283 4.4409 39.2442 6.04227 39.2442H130.21C133.413 39.2442 136 36.6573 136 33.4546C136 31.8532 135.384 30.375 134.275 29.3896C133.29 28.2809 131.812 27.665 130.21 27.665H124.298C121.957 22.245 116.66 18.5495 110.378 18.5495C106.19 18.5495 102.371 20.274 99.6611 22.9841C95.9656 16.8249 89.3138 12.6367 81.5533 12.6367C79.4592 12.6367 77.3651 13.0063 75.3941 13.499C71.4523 5.86168 63.4454 0.688004 54.3299 0.688004C43.2434 0.688004 34.0047 8.20215 31.1715 18.3031C29.0774 17.3177 26.8601 16.7017 24.3965 16.7017C17.4983 16.7017 11.5855 21.2595 9.73775 27.665H6.04227C2.83952 27.665 0.252686 30.2518 0.252686 33.4546Z" fill="#D1E3F1"/>
@@ -105,7 +127,7 @@
 
         <!-- The main img -->
         <div  class="grid_4">
-            <div id="b-main-img-container" class="b-img-continer">
+            <div class="b-img-continer">
                 <img id="b-main-img" class="b-img" src="images/main-img.svg"/>
             </div>          
         </div>
@@ -116,7 +138,7 @@
         
     <div class="grid_4 p-top-40">
 
-        <div id="b-app-links-container" class="b-app-link-continer">
+        <div class="b-app-link-continer">
             <div class="grid_2 alpha">
                 <a target="_blank" href="#">
                     <img id="b-img-appstore" class="b-appstore" src="images/log-appstore.svg"/>
@@ -124,9 +146,9 @@
             </div>
         
             <div class="grid_2 omega">
-                <div id="b-log-winstore" class="b-winstore-continer">
+                <div class="b-winstore-continer">
                     <a href="#">
-                        <img id="b-img-winstore" class="b-winstore" src="images/log-winstore.svg"/>               
+                        <img class="b-winstore" src="images/log-winstore.svg"/>               
                     </a>
                 </div>        
             </div>
@@ -136,7 +158,7 @@
     
         <!-- Contacts-->
     
-        <div id="contact-cont" class="b-contact-container">
+        <div class="b-contact-container">
     
             <div class="grid_6">
                 <div class="grid_3 alpha">
@@ -162,7 +184,7 @@
                 </div>
         
                 <div class="grid_2 omega">
-                    <div id="app-links-cont" class="b-app-continer">
+                    <div class="b-app-continer">
                         <a target="_blank" href="https://github.com/Pyggy-Bank-Team">
                             <img src="images/color-log-github.svg"/>             
                         </a>
@@ -180,8 +202,8 @@
         <!-- The main img 2 -->
 
         <div class="grid_12">
-            <div id="b-main-img-container-2" class="b-img-continer-2">
-                <img id="b-main-img-2" class="b-img-2" src="images/main-img.svg"/>
+            <div class="b-img-continer-2">
+                <img class="b-img-2" src="images/main-img.svg"/>
             </div> 
         </div>
         
@@ -213,28 +235,6 @@
         </div>
     
     </footer>
-    <script>
-        // Edit to suit your needs.
-        var ADAPT_CONFIG = {
-          // Where is your CSS?
-          path: 'assets/css/',
-        
-          // false = Only run once, when page first loads.
-          // true = Change on window resize and page tilt.
-          dynamic: true,
-        
-          // First range entry is the minimum.
-          // Last range entry is the maximum.
-          // Separate ranges by "to" keyword.
-          range: [
-            '0px    to 760px  = mobile.min.css',
-            '760px  to 980px  = 720.min.css',
-            '980px  to 1280px = 960.min.css',
-            '1280px           = 1200.min.css'
-          ]
-        };
-        </script>
-        <script src="assets/js/adapt.js"></script>
 </body>
 
 </html>

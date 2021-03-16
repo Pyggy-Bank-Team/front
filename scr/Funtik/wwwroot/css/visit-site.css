@@ -1,37 +1,10 @@
-@import 'mobile-app-style.css';
-@import '720-app-style.css';
-@import '960-app-style.css';
-@import '1200-app-style.css';
-
 .body{
     background-color: white;
-}
-
-.display-inline{
-    display: inline;
-}
-
-.display-flex{
-    display: flex;
 }
 
 .footer-social{
     position: relative;
     top:90px;
-}
-
-.footer{
-    background-color: #EEEFF9;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 255px;
-    width: 100%;
-    text-align: center;
-}
-
-.f-right{
-    float: right;
 }
 
 .p-top-20{

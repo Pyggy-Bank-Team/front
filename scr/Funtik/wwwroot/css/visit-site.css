@@ -61,3 +61,13 @@
 .b-contact-container{
     margin-top:13%;
 }
+
+.h-title-app-name-mobile{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14.4px;
+    line-height: 100%;
+    letter-spacing: 0.352px;
+    color: #CF5EA4;
+}

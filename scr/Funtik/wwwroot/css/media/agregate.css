@@ -177,7 +177,7 @@
     }
 }
 
-@media (min-width:960px) and (max-width:1199px)
+@media (min-width:992px) and (max-width:1199px)
 {
     .h-log-name{
         display: inline;
@@ -356,7 +356,7 @@
     }
 }
 
-@media (min-width:780px) and (max-width:959px)
+@media (min-width:768px) and (max-width:991px)
 {
     .h-log-name{
         display: inline;
@@ -534,7 +534,165 @@
     }
 }
 
-@media (min-width:320px) and (max-width:779px)
+@media (min-width:480px) and (max-width:767px)
+{
+    .h-log-name{
+        display: flex;
+    }
+
+    .h-log{
+        display: flex;
+    }
+
+    .h-img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .h-mobile-app-name{
+        margin: 1% 0 0 1%;
+    }
+
+    .h-name-description-container{
+        display: none;
+    }
+
+    .h-langue-button-container{
+        margin:-7% 0 0 70%;
+    }
+
+    .h-langue-button{
+        align-items: center;
+        padding: 10px 25px;
+        border: 1px solid #A0A3BD;
+        box-sizing: border-box;
+        border-radius: 5.02817px;
+        background-color: transparent;
+    }
+
+    .h-langue-button-content{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        letter-spacing: -0.5px;
+        color: black;
+    }
+
+    .b-clouds-container{
+        display: none;
+    }
+
+    .b-main-text{
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 140%;
+        letter-spacing: -0.02em;
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    .b-app-link-continer{
+        text-align: center;
+    }
+
+    .b-appstore{
+        height: 45px;
+        width: 153px;
+    }
+
+    .b-winstore-continer{
+        margin-left: 0;
+        padding-top: 20px
+    }
+
+    .b-winstore{
+        height: 45px;
+        width: 153px;
+    }
+
+    .b-contact-text{
+        font-family: Sora;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 140%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #6E7191;
+    }
+
+    .b-email-text{
+        font-family: Sora;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 140%;
+        letter-spacing: -0.02em;
+        text-decoration-line: underline;
+        color: #4E4B66;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .b-app-continer{
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .b-img-continer{
+        display: none;
+    }
+
+    .b-img-2{
+        height: 463.2px;
+        width: 419.0px;   
+    }
+
+    .f-continer{
+        background-color: #EEEFF9;
+        left: 0;
+        bottom: 0;
+        height: 255px;
+        width: 106.5%;
+        text-align: center;
+        margin: 0 0 0 -5%;
+    }
+
+    .f-img{
+        position: relative;
+        opacity: 0.6;
+        top: 40px;
+    }
+
+    .f-name{
+        position: relative;
+        color: #A0A3BD;
+        font-size: 8.19px;
+        font-weight: 307.2;
+        letter-spacing: 0.55px;
+        font-family: 'Poppins';
+        top: 43px;
+    }
+
+    .f-email{
+        position: relative;
+        color: #A0A3BD;
+        opacity: 0.8;
+        font-size: 10.72px;
+        font-weight: 307.2;
+        line-height: 140%;
+        letter-spacing: -0.02em;
+        font-family: 'Poppins';
+        top: 80px;
+    }
+}
+
+@media (min-width:320px) and (max-width:479px)
 {
     .h-log-name{
         display: flex;

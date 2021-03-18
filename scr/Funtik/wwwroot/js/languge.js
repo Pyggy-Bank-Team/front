@@ -15,7 +15,6 @@ function changeToRussian(){
     document.getElementById('b-main-text').innerText = "Бесплатное приложение для планирования бюджета";
     document.getElementById('b-question-text').innerText = "По любым вопросам:";
     document.getElementById('b-follow-text').innerText = "Мы есть:";
-    document.getElementById('b-links-cont-1200').className = "";
 }
 
 function changeToEnglish(){
